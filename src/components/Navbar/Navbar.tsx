@@ -17,21 +17,20 @@ const Navbar = () => {
 
         <ul className={ cx(styles.nav, {[styles.active]: click}) }>
           <li className={styles.nav_item}>
-            <a href="/">Platform</a>
+            <a href="/" className={styles.link_underline}>Platform</a>
           </li>
 
           <li className={styles.nav_item}>
-            <a href="/">Developers</a>
+            <a href="/" className={styles.link_underline}>Developers</a>
+          </li>
+
+          <li className={styles.nav_item}> 
+            <a href="/" className={styles.link_underline}>Community</a>
           </li>
 
           <li className={styles.nav_item}>
-            <a href="/">Community</a>
+            <a href="/" className={styles.link_underline}>About</a>
           </li>
-
-          <li className={styles.nav_item}>
-            <a href="/">About</a>
-          </li>
-
 
           <li className={styles.nav_item}>
             <a href="/" className="btn">Use Defi</a>
