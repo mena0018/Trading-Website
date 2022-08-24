@@ -54,12 +54,24 @@ h2 {
   border-radius: 50px;
   cursor: pointer;
   font-family: "Kamit", sans-serif;
+  transition: filter 0.1s ease-in;
+
+  &:hover {
+    filter: brightness(80%);
+  }
 }
 
 .btn-outline {
   background: transparent;
   border: 1px solid $primary-blue;
   color: $primary-blue;
+  transition: 0.1s ease;
+
+  &:hover {
+    background: $primary-blue;
+    border: 1px solid $light-gray;
+    color: white;
+  }
 }
 
 
