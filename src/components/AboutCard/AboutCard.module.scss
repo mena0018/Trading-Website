@@ -1,0 +1,45 @@
+@import "../../scss/_mixins.scss";
+@import "../../scss/variables";
+
+.card_container {
+  height: 390px;
+  padding: 3rem 2rem;
+  border: 1px solid $light-gray;
+  border-radius: 25px;
+  margin: auto;
+  background-color: $black;
+  transition: 0.2s ease-in;
+  text-align: start;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  h3 {
+    margin: 1rem 0;
+    color: $light-gray;
+  }
+
+  p {
+    color: $gray;
+    height: 50%;
+    overflow: hidden;
+  }
+
+  .icon_container {
+    background-color: $primary-blue;
+    border-radius: 50px;
+    display: inline-flex;
+    padding: 1rem;
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 1rem 0 !important;
+  }
+}
