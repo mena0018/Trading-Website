@@ -5,10 +5,11 @@ import { data } from "../../data/about";
 
 const About = () => {
 
-  const listCard = data.map ((item) =>
+  const listCard = data.map ((item, index) =>
     <AboutCard heading={item.heading} 
                icon={item.icon} 
-               text={item.text} /> 
+               text={item.text}
+               key={index} /> 
  )
   
 
