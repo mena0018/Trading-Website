@@ -4,6 +4,7 @@ import "./index.scss";
 import About from "./pages/About/About";
 import Developer from "./pages/Developer/Developer";
 import Subscription from "./pages/Subscription/Subscription";
+import Footer from './pages/Footer/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Developer />
       <Subscription />
+      <Footer />
     </>
   );
 }
