@@ -1,5 +1,5 @@
 import styles from "./Developer.module.scss";
-import Terminal from "../../assets/terminal.png";
+import Terminal from "../../assets/terminal.webp";
 
 
 const Developer = () => {
