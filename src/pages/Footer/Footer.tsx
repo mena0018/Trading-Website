@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.footer_container}>
 
         <div className={styles.col}>
-          <h4>Products</h4>
+          <h2>Products</h2>
           <p>App</p>
           <p>Analytics</p>
           <p>Token Lists</p>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.col}>
-          <h4>Developers</h4>
+          <h2>Developers</h2>
           <p>App</p>
           <p>Analytics</p>
           <p>Token Lists</p>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.col}>
-          <h4>Governance</h4>
+          <h2>Governance</h2>
           <p>App</p>
           <p>Analytics</p>
           <p>Token Lists</p>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.col}>
-          <h4>About</h4>
+          <h2>About</h2>
           <p>App</p>
           <p>Analytics</p>
           <p>Token Lists</p>
