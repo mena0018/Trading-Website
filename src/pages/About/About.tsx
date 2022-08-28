@@ -14,7 +14,7 @@ const About = () => {
   
 
   return (
-    <div className={styles.about_container}>
+    <div className={styles.about_container} id="about">
       <div className={styles.about_content}>
          
         <h2>A Growing Protocol Ecosystem</h2>

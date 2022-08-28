@@ -16,23 +16,23 @@ const Navbar = () => {
         <h1>Defi</h1>
 
         <ul className={ cx(styles.nav, {[styles.active]: click}) }>
-          <li className={styles.nav_item}>
-            <a href="/" className={styles.link_underline}>Platform</a>
+          <li className={styles.nav_item} onClick={handleClick}>
+            <a href="#about" className={styles.link_underline}>About</a>
           </li>
 
-          <li className={styles.nav_item}>
-            <a href="/" className={styles.link_underline}>Developers</a>
+          <li className={styles.nav_item} onClick={handleClick}>
+            <a href="#developers" className={styles.link_underline}>Developers</a>
           </li>
 
-          <li className={styles.nav_item}> 
-            <a href="/" className={styles.link_underline}>Community</a>
+          <li className={styles.nav_item} onClick={handleClick}> 
+            <a href="#community" className={styles.link_underline}>Community</a>
           </li>
 
-          <li className={styles.nav_item}>
-            <a href="/" className={styles.link_underline}>About</a>
+          <li className={styles.nav_item} onClick={handleClick}>
+            <a href="#platform" className={styles.link_underline}>Platform</a>
           </li>
 
-          <li className={styles.nav_item}>
+          <li className={styles.nav_item} onClick={handleClick}>
             <a href="/" className="btn">Use Defi</a>
           </li>
         </ul>

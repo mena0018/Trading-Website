@@ -4,7 +4,7 @@ import Terminal from "../../assets/terminal.png";
 
 const Developer = () => {
   return (
-    <div className={styles.developer_container}>
+    <div className={styles.developer_container} id="developers">
       <div className={styles.developer_content}>
 
         <div className={styles.informations}>

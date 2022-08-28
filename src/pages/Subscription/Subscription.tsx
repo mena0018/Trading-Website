@@ -3,7 +3,7 @@ import styles from "./Subscription.module.scss";
 
 const Subscription = () => {
   return (
-    <div className={styles.subscription_container}>
+    <div className={styles.subscription_container} id="community">
 
       <div className={styles.subscription_content}>
         <h2>Join Our DeFi Community</h2>
